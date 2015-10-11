@@ -1,0 +1,8 @@
+# User-Cloud Spring OSS Ratpack Example
+
+## TODOS
+
+- Add eureka
+- Add turbine
+- Add second service
+- Lattice integration

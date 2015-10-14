@@ -9,6 +9,6 @@ class ModuleConfig {
 
     @Bean
     HystrixModule hystrixModule() {
-        new HystrixModule().sse()
+        new HystrixModule()
     }
 }

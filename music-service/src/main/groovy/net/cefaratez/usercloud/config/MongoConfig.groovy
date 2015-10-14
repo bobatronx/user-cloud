@@ -13,5 +13,4 @@ class MongoConfig {
     MongoDbFactory mongoDbFactory() throws Exception {
         return new SimpleMongoDbFactory(new Mongo(), 'usercloud')
     }
-
 }

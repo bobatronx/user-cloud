@@ -1,7 +1,7 @@
 import groovy.json.JsonSlurper
-import net.cefaratez.usercloud.chain.ProfileChainAction
-import net.cefaratez.usercloud.domain.Profile
-import net.cefaratez.usercloud.service.ProfileService
+import net.cefaratez.usercloud.music.chain.ProfileChainAction
+import net.cefaratez.usercloud.music.domain.Profile
+import net.cefaratez.usercloud.music.service.ProfileService
 import ratpack.test.embed.EmbeddedApp
 import rx.Observable
 import spock.lang.Specification

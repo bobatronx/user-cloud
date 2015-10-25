@@ -2,3 +2,4 @@ rootProject.name = 'user-cloud'
 
 include 'profile-service'
 include 'music-service'
+include 'favorite-artist-service'

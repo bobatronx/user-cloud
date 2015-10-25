@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: favorite-artist-service
+
+server:
+  port: 8082

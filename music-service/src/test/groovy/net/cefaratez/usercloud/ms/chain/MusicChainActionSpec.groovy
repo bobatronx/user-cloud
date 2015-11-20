@@ -1,13 +1,12 @@
 package net.cefaratez.usercloud.ms.chain
 
 import groovy.json.JsonSlurper
-import net.cefaratez.usercloud.ms.chain.MusicChainAction
 import net.cefaratez.usercloud.ms.domain.Album
 import net.cefaratez.usercloud.ms.domain.Artist
 import net.cefaratez.usercloud.ms.service.ArtistService
 import ratpack.test.embed.EmbeddedApp
-import spock.lang.Specification
 import rx.Observable
+import spock.lang.Specification
 
 import static groovy.json.JsonOutput.toJson
 

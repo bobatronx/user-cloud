@@ -6,7 +6,6 @@ import ratpack.spring.config.EnableRatpack
 
 @SpringBootApplication
 @EnableRatpack
-//@EnableHystrixDashboard
 class MusicServiceApplication {
 
     static void main(String... args) throws Exception {

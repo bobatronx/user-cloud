@@ -3,4 +3,4 @@ spring:
     name: favorite-artist-service
 
 ratpack:
-  port: 5052
+  port: ${PORT:5052}

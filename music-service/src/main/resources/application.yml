@@ -3,4 +3,4 @@ spring:
     name: music-service
 
 ratpack:
-  port: 5051
+  port: ${PORT:5051}

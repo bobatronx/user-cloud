@@ -1,4 +1,4 @@
-package net.cefaratez.usercloud.fas
+package net.cefaratez.usercloud.ps
 
 import org.springframework.boot.SpringApplication
 import org.springframework.boot.autoconfigure.SpringBootApplication
@@ -6,9 +6,9 @@ import ratpack.spring.config.EnableRatpack
 
 @SpringBootApplication
 @EnableRatpack
-class FavoriteArtistServiceApplication {
+class ProfileServiceApplication {
 
     static void main(String... args) throws Exception {
-        SpringApplication.run(FavoriteArtistServiceApplication, args)
+        SpringApplication.run(ProfileServiceApplication, args)
     }
 }

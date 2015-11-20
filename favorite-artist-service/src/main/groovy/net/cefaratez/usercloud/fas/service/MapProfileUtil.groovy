@@ -1,6 +1,6 @@
-package net.cefaratez.usercloud.music.service
+package net.cefaratez.usercloud.fas.service
 
-import net.cefaratez.usercloud.music.domain.ProfileWithArtist
+import net.cefaratez.usercloud.fas.domain.ProfileWithArtist
 
 /**
  * Created by James Cefaratti

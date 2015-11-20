@@ -2,5 +2,5 @@ spring:
   application:
     name: music-service
 
-server:
-  port: 8081
+ratpack:
+  port: 5051

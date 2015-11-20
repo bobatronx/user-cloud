@@ -1,1 +1,5 @@
-mainClassName = "net.cefaratez.usercloud.FavoriteArtistServiceApplication"
+mainClassName = "net.cefaratez.usercloud.fas.FavoriteArtistServiceApplication"
+
+dependencies {
+    compile 'org.springframework.boot:spring-boot-starter-web'
+}

@@ -1,4 +1,4 @@
-package net.cefaratez.usercloud.music.domain
+package net.cefaratez.usercloud.fas.domain
 
 /**
  * Created by James Cefaratti

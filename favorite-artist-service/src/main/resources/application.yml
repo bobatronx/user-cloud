@@ -2,5 +2,5 @@ spring:
   application:
     name: favorite-artist-service
 
-server:
-  port: 8082
+ratpack:
+  port: 5052

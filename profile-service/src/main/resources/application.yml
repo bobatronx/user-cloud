@@ -2,5 +2,5 @@ spring:
   application:
     name: profile-service
 
-server:
-  port: 8080
+ratpack:
+  port: 5050

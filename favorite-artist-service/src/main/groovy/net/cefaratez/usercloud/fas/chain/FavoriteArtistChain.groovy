@@ -1,7 +1,7 @@
-package net.cefaratez.usercloud.music.chain
+package net.cefaratez.usercloud.fas.chain
 
 import groovy.json.JsonSlurper
-import net.cefaratez.usercloud.music.service.MapProfileUtil
+import net.cefaratez.usercloud.fas.service.MapProfileUtil
 import org.springframework.stereotype.Component
 import org.springframework.web.util.UriComponentsBuilder
 import ratpack.groovy.handling.GroovyChainAction

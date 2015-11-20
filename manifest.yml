@@ -1,0 +1,15 @@
+---
+memory: 512m
+buildpack: https://github.com/bobatronx/java-buildpack.git
+services:
+  - ms-mongo
+applications:
+  - name: music-service
+    path: ./music-service/build/distributions/music-service.zip
+    host: ms-bobatronx
+  - name: profile-service
+    path: ./profile-service/build/distributions/profile-service.zip
+    host: ps-bobatronx
+  - name: favorite-artist-service
+    path: ./favorite-artist-service/build/distributions/favorite-artist-service.zip
+    host: fas-bobatronx

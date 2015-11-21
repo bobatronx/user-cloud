@@ -1,9 +1,9 @@
 ---
 applications:
 - name: music-service
-  path: ./build/distributions/music-service.zip
+  path: build/libs/music-service.jar
   host: ms-bobatronx
   memory: 512m
-  buildpack: https://github.com/bobatronx/java-buildpack.git
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
   services:
     - ms-mongo

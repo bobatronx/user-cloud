@@ -1,9 +1,9 @@
 ---
 applications:
   - name: favorite-artist-service
-    path: ./build/distributions/favorite-artist-service.zip
+    path: build/libs/favorite-artist-service.jar
     host: fas-bobatronx
     memory: 512m
-    buildpack: https://github.com/bobatronx/java-buildpack.git
+    buildpack: https://github.com/cloudfoundry/java-buildpack.git
     services:
       - ms-mongo

@@ -1,9 +1,9 @@
 ---
 applications:
 - name: profile-service
-  path: ./build/distributions/profile-service.zip
+  path: build/libs/profile-service.jar
   host: ps-bobatronx
   memory: 512m
-  buildpack: https://github.com/bobatronx/java-buildpack.git
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
   services:
     - ms-mongo

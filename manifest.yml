@@ -1,15 +1,15 @@
 ---
 memory: 512m
-buildpack: https://github.com/bobatronx/java-buildpack.git
+buildpack: https://github.com/cloudfoundry/java-buildpack.git
 services:
   - ms-mongo
 applications:
   - name: music-service
-    path: ./music-service/build/distributions/music-service.zip
+    path: music-service/build/libs/music-service.jar
     host: ms-bobatronx
   - name: profile-service
-    path: ./profile-service/build/distributions/profile-service.zip
+    path: profile-service/build/libs/profile-service.jar
     host: ps-bobatronx
   - name: favorite-artist-service
-    path: ./favorite-artist-service/build/distributions/favorite-artist-service.zip
+    path: favorite-artist-service/build/libs/favorite-artist-service.jar
     host: fas-bobatronx
